@@ -1,0 +1,22 @@
+# Sensitive Environment Variables
+.env
+*.env
+secrets.json
+
+# Docker & Local Infrastructure
+.docker/
+**/postgres_data/
+**/zookeeper_data/
+**/kafka_data/
+
+# dbt logs and local profiles
+**/logs/
+**/target/
+profiles.yml
+
+# IDEs and OS junk
+.vscode/
+.idea/
+.DS_Store
+__pycache__/
+*.pyc

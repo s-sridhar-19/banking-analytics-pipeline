@@ -1,0 +1,11 @@
+# Database Drivers & Connectors
+psycopg2-binary==2.9.9
+confluent-kafka==2.4.0
+
+# dbt Core & Snowflake Adapter (Optimized for Python 3.11)
+dbt-core~=1.7.0
+dbt-snowflake~=1.7.0
+
+# Utilities
+requests==2.31.0
+python-dotenv==1.0.1
