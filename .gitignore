@@ -20,3 +20,11 @@ profiles.yml
 .DS_Store
 __pycache__/
 *.pyc
+
+# Python virtual environment
+.venv/
+
+# dbt logs and compiled artifacts
+dbt_banking/logs/
+dbt_banking/target/
+dbt_banking/dbt_packages/

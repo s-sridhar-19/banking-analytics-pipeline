@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: snowflake_raw
+    database: banking_lakehouse
+    schema: raw
+    tables:
+      - name: raw_users
+      - name: raw_accounts
+      - name: raw_transactions
