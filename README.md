@@ -43,6 +43,7 @@ The platform transforms raw transactional writes from an operational core databa
   ┌──────────────────────┐
   │ Analytics Gold Layer │  ──► Final Aggregated Business Marts
   └──────────────────────┘
+```
 
 ## 🗂️ Cloud Lakehouse Warehouse Topography
 
@@ -80,4 +81,3 @@ Building a robust decoupled architecture introduces delicate synchronization and
 * **Cloud Platform Data Warehouse:** Snowflake
 * **Data Modeling & Analytics:** dbt Core (Data Build Tool)
 * **Orchestration / Glue Logic:** Python 3 (Boto3, Snowflake-Connector Engine)
-
